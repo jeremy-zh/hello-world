@@ -9,5 +9,9 @@ private:
     
 public:
     Person(int id) : m_ID(id) {}
+    void SetAge(int nAge)
+    {
+        m_age = nAge;
+    }
     
 }
